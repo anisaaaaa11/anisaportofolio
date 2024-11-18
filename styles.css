@@ -1,0 +1,221 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #FFF8E7; /* Warna Cream */
+}
+
+header {
+    background-color: #C25A27; /* Warna coklat muda untuk kontras */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #C25A27, #D4907B); /* Warna gradasi coklat muda */
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .button {
+    background-color: #fff;
+    color: #C25A27;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero .button:hover {
+    background-color: #C25A27;
+    color: #fff;
+}
+
+/* Profile Section */
+.section {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    background: #FFEBD9; /* Background cream muda */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #FFF4E3; /* Warna cream lebih terang */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.profile-details {
+    max-width: 500px;
+}
+
+.profile-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #C25A27; /* Warna coklat muda */
+}
+
+.profile-location, .profile-contact {
+    font-size: 1rem;
+    color: #777;
+}
+
+.profile-contact a {
+    color: #C25A27;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-contact a:hover {
+    text-decoration: underline;
+}
+
+.profile-description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a {
+    color: #555;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #C25A27;
+}
+
+/* Experience Section */
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    background: #FFEBD9; /* Background cream */
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.book-photo {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.experience-text {
+    max-width: calc(100% - 140px); /* Mengatur tata letak */
+}
+
+.experience-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #C25A27;
+}
+
+.experience-item p {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #C25A27;
+    color: #fff;
+    margin-top: 2rem;
+}

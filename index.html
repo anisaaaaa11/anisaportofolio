@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annisa - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1>Annisa</h1>
+            <ul>
+                <li><a href="#profile"><i class="fas fa-user"></i> Profil</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i> Pengalaman</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Pendidikan</a></li>
+                <li><a href="#interests"><i class="fas fa-heart"></i> Minat</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Profile Section -->
+    <section id="profile" class="section">
+        <h2 class="section-title">TENTANG SAYA</h2>
+        <div class="profile-container">
+            <img src="assets/img/annisa.jpg" alt="Foto Profil" class="profile-photo">
+            <div class="profile-details">
+                <h3 class="profile-name">ANNISA <span class="highlight"></span></h3>
+                <p class="profile-location">SAMBAS · KALIMANTAN BARAT</p>
+                <p class="profile-contact">083125454030 · <a href="mailto:annisasa485@gmail.com" class="email">annisasa485@GMAIL.COM</a></p>
+                <p class="profile-description">"Halo! Saya Annisa, mahasiswa jurusan Manajemen Informatika yang memiliki ketertarikan mendalam pada dunia sastra dan teknologi. Dengan hobi membaca, saya terus mengembangkan wawasan dan inspirasi untuk menciptakan berbagai karya sastra yang penuh makna. Saya percaya bahwa kombinasi kreativitas dan pengetahuan dapat menghasilkan karya-karya luar biasa yang memberikan manfaat bagi banyak orang. Mari berkolaborasi dan berbagi ide untuk menciptakan sesuatu yang berharga!"</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2>Pengalaman</h2>
+        <div class="experience-list">
+            <div class="experience-item">
+                <h3><i class="fas fa-lightbulb"></i> Kegiatan Jetrada Saat SMA</h3>
+                <p>2021</p>
+                <p>Saya tertarik mengikuti kegiatan Jetrada karena acara ini memberikan banyak wawasan baru tentang budaya dan sejarah Sambas.</p>
+            </div>
+            <div class="experience-item">
+                <h3><i class="fas fa-book"></i> Kegiatan Bengkel Sastra</h3>
+                <p>2021</p>
+                <p>Bengkel Sastra ini memberikan kesempatan belajar langsung dari para ahli sastra, dengan banyak ilmu yang sangat berharga untuk pengalaman diri.</p>
+            </div>
+            <div class="experience-item">
+                <img src="assets/img/oleh-oleh-bumi-sambas.jpg" alt="Buku Oleh-Oleh Bumi Sambas" class="book-photo">
+                <h3><i class="fas fa-pen"></i> Penulis Cerpen dalam Buku "Oleh-Oleh Bumi Sambas"</h3>
+                <p>2022</p>
+                <p>Berperan sebagai penulis dengan kontribusi berupa 2 cerpen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>Pendidikan</h2>
+        <div class="education-list">
+            <div class="education-item">
+                <h3><i class="fas fa-university"></i> Politeknik Negeri Sambas</h3>
+                <p>jurusan Manajemen Informatika.</p>
+            </div>
+            <div class="education-item">
+                <h3><i class="fas fa-university"></i> SMAN 1 SEBAWI</h3>
+                <p>jurusan IPA</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="section">
+        <h2>Minat</h2>
+        <p>Saya adalah seorang mahasiswa di jurusan Manajemen Informatika yang memiliki ketertarikan mendalam pada dunia sastra. Selain menempuh pendidikan di bidang teknologi informasi, saya aktif menulis karya sastra, menciptakan berbagai tulisan yang menggambarkan kreativitas dan imajinasi yang tajam. Hobi membaca menjadi bagian penting dalam pengembangan kemampuan saya, yang memungkinkan saya menghasilkan banyak karya yang bervariasi. Dengan kemampuan menulis yang terus berkembang, saya berharap dapat menginspirasi pembaca melalui karya-karya yang penuh makna dan memberikan dampak positif di dunia sastra.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Kontak</h2>
+        <p>Ingin berkolaborasi? Hubungi saya melalui email atau sosial media.</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Pesan" required></textarea>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Annisa. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
